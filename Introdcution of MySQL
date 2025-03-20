@@ -1,0 +1,56 @@
+SQL (Structured Query Language)
+Formated Data Schema, Data Finding Effieciently
+
+MySQL
+MySql is most popular open-source relational database system that implements SQL
+1.Write a SQL statements in client
+2.Execute the statement
+3.Recive the result
+
+SQL is programming languuage that is used to manage and manupulate the reletional database
+Create
+Modify
+Retrive
+Delete
+Moify Access
+
+Command
+
+DDL(Data Defination Lanaguge)
+For define the strucutre of database
+
+Create - Used to create a Databases, Tables, Indexes
+Alter - Used to modifing the exiting the Databases, Objects
+Drop - Used to delete the Databases, Tables and Objects
+
+
+DML(Data Manupukation Langauge)
+For inserting, updating, deleting the data within database table
+
+Select - Retriving data from one or more tables
+Insert - Adds new records into tables
+Update - Modifying the data from exiting tables
+Delete - Remove the data from exiting table
+
+DCL(Data Control Language)
+For control access to data in database
+
+Grant - Give a access to user privillages to database object
+Revoke - Remove access privillages from a user
+
+TCL(Transaction Control Lanaguge)
+Manage the transaction within the databases ensuring the data integrty and consitency
+
+Commit - Save all the changes during the current transaction
+Rollback - Undoes changes during the current transaction
+Savepoint - Save a point within the trascation to which you can rollback
+Set Transaction - Configure the transaction property
+
+Key features and Advantages of Using SQL
+
+1.Simplicity - Uses simple and understable syntaxes - Select Update Where making it easy to learn
+2.Regularity - Every reletional databases system support SQL
+3.Flexibilty - Handle complex query involving multiplr joined table, subquery, window function and more
+4.Performence - Can optimazed the large volues of data very effiently
+5.Data Integrty - Having features Transaction, Constrants, ACID Compliance ensure that data reamins accurate and consistent
+
